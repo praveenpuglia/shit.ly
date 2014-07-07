@@ -54,10 +54,10 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => 'localhost',
-			'database'  => 'db_shitly',
-			'username'  => 'root',
-			'password'  => '',
+			'host'      => 'YOUR_MYSQL_HOST',
+			'database'  => 'YOUR_DB_NAME',
+			'username'  => 'YOUR_DB_USERNAME',
+			'password'  => 'YOUR_DB_PASSWORD',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
