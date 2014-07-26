@@ -55,9 +55,9 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'db_shitly',
-			'username'  => 'root',
-			'password'  => '',
+			'database'  => 'YOUR_DATABASE',
+			'username'  => 'YOUR_USERNAME',
+			'password'  => 'YOUR_PASSWORD',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
