@@ -23,10 +23,12 @@ class PageController extends BaseController {
         App::error(function(ModelNotFoundException $e){
            return Response::view("pages/404",array(),404);
         });
+        $url = $_POST['url'];
+        
+        //bypassed js and passed an empty value
         if(!isset($url)){
             return Response::view("pages/404",array(),404);
         }
-        $url = $_POST['url'];
         $row = HashModel::where("url",$url)->first();
         if(!empty($row)){
             return URL::to('/r').'/'.$row->hash;//one way of getting it.            
