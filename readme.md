@@ -1,21 +1,19 @@
-## Laravel PHP Framework
+## Shit.ly
+Shit.ly is a small URL shortener project that came up as an outcome of HackNight. It's built on Laravel 4.2.7 
 
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/version.png)](https://packagist.org/packages/laravel/framework) [![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.png)](https://packagist.org/packages/laravel/framework) [![Build Status](https://travis-ci.org/laravel/framework.png)](https://travis-ci.org/laravel/framework) [![License](https://poser.pugx.org/laravel/framework/license.png)](https://packagist.org/packages/laravel/framework)
+### Things it can do
+It's made up in few hours but still it has the following mind boggling earth-shattering features. :P
+* Basic shortening and validation
+* Proper redirection to 404 pages if tried to cheat.
+* Decent UI. Suitable to the project name. ;)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, and caching.
+### Installation : 
+* Download Laravel 4.x and install it as specified here - http://laravel.com/docs/installation#install-laravel
+* Run the default composer installation to get the vendors.
+* Clone the shit.ly repository and merge it.
 
-Laravel aims to make the development process a pleasing one for the developer without sacrificing application functionality. Happy developers make the best code. To this end, we've attempted to combine the very best of what we have seen in other web frameworks, including frameworks implemented in other languages, such as Ruby on Rails, ASP.NET MVC, and Sinatra.
+### Configuration:
+* Go to `/app/config/database.php` 
+* Set the driver as `mysql` and provide the database credentials. The preferred database name is `db_shitly`. If you want to change that, go to `/db_shitly.sql` and change the database to anything you like.
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
-
-## Official Documentation
-
-Documentation for the entire framework can be found on the [Laravel website](http://laravel.com/docs).
-
-### Contributing To Laravel
-
-**All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**
-
-### License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+Alrighty! You are done!
